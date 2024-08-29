@@ -1,0 +1,230 @@
+body{
+  font-family: "Familjen Grotesk", sans-serif;
+  margin: 0;
+  background-color: #242121;
+  overflow: scroll;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.navigation{
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.navigation .imgIcon{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+.navigation div{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+
+.nav-part1 a{
+    padding: 2px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #1E1919;
+
+}
+
+.nav-part1 a:hover{
+    color: #0060FF;
+}
+
+.nav-part1{
+    padding-right: 250px;
+    padding-top: 35px;
+}
+
+.nav-part2 a{
+    padding: 2px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: #1E1919;
+}
+
+.nav-part2 a:hover{
+    color: #0060FF;
+}
+
+
+.nav-part2 .btn{
+    color: #F7F5F2;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 6px 15px 6px 15px;
+    border-radius: 12px;
+    height: 45px;
+    width: 112px;
+    text-align: center;
+    margin: 0 25px 0 25px;
+}
+
+.infobox{
+    color: white;
+    width: 100%;
+    background-color: #1e1919;
+}
+
+.allText{
+    color: #f7f5f2;
+    height: 400px;
+    width: 714px;
+    position: relative;
+    top: 20%;
+    left: 23%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.largeText{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 120%;
+    font-size: 50px;
+}
+
+.paraText {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 135px;
+    font-size: 16;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 150%;
+    text-align: center;
+}
+
+.planButton{
+    color: #1e1919;
+    background-color: #3984ff;
+    border-radius: 18px;
+    padding: 24px;
+    width: 212px;
+    height: 60px;
+    display: inline-grid;
+    position: relative;
+    align-items: center;
+    text-decoration: none;
+    top: 170px;
+    display: inline;
+}
+
+.planButton i{
+    position: relative;
+    top: 5px;
+
+}
+
+.planButton button :hover{
+    transition: 10s ;
+    opacity: 120%;
+}
+.planButton i:hover{
+    transition: 10s;
+    left: 10px;
+}
+
+
+form{
+    display:flex;
+    width: auto;
+    position: relative;
+    top: 220px;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailinput input{
+    width: 300px;
+    height: 48px;
+    border: solid 0.5px  grey;
+    background-color: #1e1919;
+    padding: 8px;
+}
+
+.signUpbtn button{
+    margin-left: 10px;
+    border-radius: 12px;
+    background-color: #1e1919;
+    color: #f7f5f2;
+    border: solid #f7f5f2 2px;
+    width: 173px;
+    height: 49px;
+    padding: 8px 24px 8px 24px;
+}
+
+.signUpbtn button:hover{
+    background-color: rgba(211, 211, 211, 0);
+}
+
+
+.other{
+    background-color: #1E1919;
+    flex: 1;
+    height: 100vh;
+    width: 100%;
+}
+
+.cardHeading{
+    background-color: #1E1919;
+    position: relative;
+    top: 10px;
+    color: #F7F5F2;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+.row{
+    align-items: baseline;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+    background-color: #1E1919;
+}
+
+.row .col{
+    height: 400px;
+    background-color: #1E1919;
+}
+
+.card{
+    background-color: #1E1919;
+    color: #F7F5F2;
+}
